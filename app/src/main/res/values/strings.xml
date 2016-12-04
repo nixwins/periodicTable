@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Химиялық элементердің периодтық жүйесі</string>
+    <string name="group_subgroup_caption">T\\T</string>
+    <string name="period_row_caption">П\\Қ</string>
+    <string name="symbol_caption">Таңба</string>
+    <string name="pieChartCenterText">Электрондардың энергетикалық деңгейлерге орналасуы</string>
+    <string name="eachLabelForPieChart">Деңгей</string>
+
+    <string name="element_atomic_weight_caption">Атомдық салмағы</string>
+    <string name="element_atomic_number_caption">Реттік номері</string>
+    <string name="element_configuration_caption">Электрон конфигурацясы</string>
+    <string name="element_oxide_caption">Жоғарғы оксиді</string>
+    <string name="element_volatile_hydrogenid_caption">Ұшқыш сутекті қосылыс</string>
+    <string name="electron_formula_caption">Элементтің электрондық формуласы</string>
+    <string name="element_valence_caption">Валенттілік</string>
+    <string name="element_energy_level_caption">Электрондардың энергетикалық деңгейлерге орналасуы</string>
+
+    <string name="hint_search">Іздеу</string>
+    <string name="questionToolbarTitle">Элементтің таңбасын тап</string>
+    <string name="question_right_answer">Дұрыс</string>
+    <string name="question_wrong_answer">Қате</string>
+    <string name="question_next_btn">Келесі</string>
+    <string name="question_check_btn">Тексеру</string>
+
+    <string name="periodic_table_btn_value">Кесте</string>
+
+   <!-- Menu items name-->
+
+    <string name="lang_ru_text">ru</string>
+    <string name="lang_kz_text">kz</string>
+
+</resources>
+

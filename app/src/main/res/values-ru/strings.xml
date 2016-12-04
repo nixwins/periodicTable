@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Таблица Менделеева</string>
+    <string name="group_subgroup_caption">Г\\П</string>
+    <string name="period_row_caption">П\\Р</string>
+    <string name="symbol_caption">Символ</string>
+    <string name="pieChartCenterText">Распределение электронов по энергитическим уровням</string>
+    <string name="eachLabelForPieChart">Уровень</string>
+
+    <string name="element_atomic_weight_caption">Атомная масса</string>
+    <string name="element_atomic_number_caption">Атомный номер</string>
+    <string name="element_configuration_caption">Конфигурация электрона</string>
+    <string name="element_oxide_caption">Высшее оксид</string>
+    <string name="element_volatile_hydrogenid_caption">Летучие водородные соединения</string>
+    <string name="electron_formula_caption">Электроная формула</string>
+    <string name="element_valence_caption">Валлентность</string>
+    <string name="element_energy_level_caption">Распределение электронов по энергитичиеским уровням</string>
+
+    <string name="hint_search">Поиск</string>
+    <string name="questionToolbarTitle">Найди символ</string>
+    <string name="question_right_answer">Правильно</string>
+    <string name="question_wrong_answer">Неправильно</string>
+    <string name="question_next_btn">Еще</string>
+    <string name="question_check_btn">Проверить</string>
+
+    <string name="periodic_table_btn_value">Таблица</string>
+
+    <!-- Menu items name-->
+
+    <string name="lang_ru_text">ru</string>
+    <string name="lang_kz_text">kz</string>
+</resources>

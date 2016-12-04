@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:id="@+id/element_cardview"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="@color/cardview_dark_background"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <LinearLayout
+        android:id="@+id/contanierLl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/elementEnergyTypeS"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/atomic_nubmer"
+                android:text="TextView"
+                android:layout_width="0dp"
+                android:layout_weight=".5"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="0dp"
+                tools:text="20"/>
+            <TextView
+                android:id="@+id/atomic_weight"
+                android:text="TextView"
+                android:layout_width="0dp"
+                android:layout_weight=".5"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewEnd"
+                android:gravity="end"
+                android:textSize="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="0dp"
+                tools:text="40.078" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/symbol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Ca"
+                android:fontFamily="sans-serif"
+                android:textSize="50sp"
+
+                android:layout_marginBottom="0dp"
+                android:paddingBottom="0dp"
+                android:paddingTop="0dp"
+                android:textAlignment="center"
+                android:gravity="center"
+
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="0dp"
+                    android:layout_weight=".5"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    tools:text="Кальций"/>
+                <TextView
+                    android:id="@+id/latin_name"
+                    android:layout_width="0dp"
+                    android:layout_weight=".5"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    tools:text="Calcuim"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/energy_level"
+                android:text="TextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:textSize="14dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="0dp"
+                android:textAlignment="viewStart"
+                android:layout_gravity="end"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                tools:text="2 8 8 2 14 34 32"/>
+            <TextView
+                android:id="@+id/electron_configuration"
+                android:text="TextView"
+                android:layout_width="0dp"
+                android:layout_weight=".5"
+                android:textAlignment="viewEnd"
+                android:gravity="end"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                tools:text="4s^2" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

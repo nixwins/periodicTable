@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorDeepOrange">#FF5722</color>
+
+    <!--- Elemet background color -->
+
+    <color name="elementEnergyTypeS">#E91E63</color>
+    <color name="elementEnergyTypeD">#0097A7</color>
+    <color name="elementEnergyTypeP">#FFEB3B</color>
+    <color name="elementEnergyTypeF">#4CAF50</color>
+    <color name="elementEnergyTypeDefault">#FFFFFF</color>
+
+    <!-- END -->
+
+    <!-- Element layout colors -->
+    <color name="colorHeaderCaption">#689f38</color>
+    <color name="colorElementValues">#03a9f4</color>
+    <color name="colorOtherCaption">#212121</color>
+    <color name="colorElementValuesText">#FFFFFF</color>
+
+</resources>
